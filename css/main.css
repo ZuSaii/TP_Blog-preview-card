@@ -23,11 +23,45 @@ main {
 
 .html-css-course {
     width: 100%;
+    margin-bottom: 16px;
 }
 
 .category {
     border-radius: 8px;
-    padding: 4px;
+    padding: 4px 12px;
     display: inline;
+    font-weight: 800;
+    font-size: 14px;
     background-color: #F4D04E;
+}
+
+.published-date {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.course-title {
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.course-description {
+    font-weight: 800;
+    margin-bottom: 16px;
+    color: #7F7F7F;
+}
+
+.profile {
+    display: flex;
+}
+
+.greg-hooper {
+    padding-right: 8px;
+}
+
+.profile p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

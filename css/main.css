@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4D04E;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Figtree", sans-serif;
+}
+
+main {
+    width: 384px;
+    padding: 24px;
+    background-color: white;
+    border: solid 1px;
+    border-radius: 16px;
+}
+
+.html-css-course {
+    width: 100%;
+}
+
+.category {
+    border-radius: 8px;
+    padding: 4px;
+    display: inline;
+    background-color: #F4D04E;
+}
